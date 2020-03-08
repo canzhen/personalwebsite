@@ -1,2 +1,4 @@
-# personalwebsite
-Personal Website
+# Personal Website
+Canzhen's Personal Website
+
+Golang + React
