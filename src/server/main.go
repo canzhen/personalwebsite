@@ -15,7 +15,7 @@ func main() {
 	router := gin.Default()
 
 	router.Use(static.Serve("/", static.LocalFile("../client/build", true))) // serve frontend static files
-	// router.StaticFile("/favicon.ico", "../website/images/favicon.ico")       // load the static path
+	router.StaticFile("/favicon.ico", "../client/public/favicon.ico")        // load the static path
 	// router.StaticFS("/images", http.Dir(staticFileDirectory)) // static repo
 
 	// // Setup route group for the API
