@@ -1,5 +1,17 @@
 .App {
-  display: flex;
+  display: block;
+}
+
+.Header{
+  height: 10%;
+}
+
+.Body{
+  height: 80%;
+}
+
+.Footer{
+  height:10%;
 }
 
 .App-logo {
