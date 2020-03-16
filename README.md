@@ -5,7 +5,7 @@ Canzhen's Personal Website (Golang + React)
 1. On the server, favicon.ico won't show up (locally it's fine)
 
 
-##Server setup
+## Server setup
 1. install go packages
 ```
 go get github.com/go-playground/universal-translator
@@ -36,7 +36,7 @@ go get gopkg.in/yaml.v2
 - run `service personal-website-server start` to start the server
 - you can check the status by running `service personal-website-server status`
 
-##Client setup:
+## Client setup:
 1. go to $(root)/src/client
 2. run `npm install`
 3. run `npm run build`
