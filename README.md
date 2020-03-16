@@ -1,6 +1,10 @@
 # Personal Website
 Canzhen's Personal Website (Golang + React)
 
+## Issue to be fixed
+1. On the server, favicon.ico won't show up (locally it's fine)
+
+
 Server setup:
 1. install go packages
 ```
