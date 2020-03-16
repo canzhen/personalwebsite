@@ -34,7 +34,7 @@ func main() {
 	// api.POST("/jokes/like/:jokeID", LikeJoke)
 
 	// Start and run the server
-	router.Run(":8080")
+	router.Run(":80")
 }
 
 // Let's create our Jokes struct. This will contain information about a Joke
