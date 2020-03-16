@@ -8,8 +8,8 @@ export class Header extends React.Component {
     return (
         <header className="homepageHeader">
             <p>Learn More About Me</p>
-            <img className="menuButtonImg" src='/images/menubutton.png'/>
-            <Button>Login</Button>
+            <img className="headerMenuButtonImg" src='/images/menubutton.png'/>
+            <Button className="headerButton">Login</Button>
         </header>
     );
   }
