@@ -1,7 +1,13 @@
 import './Body.css'
-
 import * as React from "react";
+import { Link } from "react-router-dom";
+
 export class Body extends React.Component {
+
+  nextPath = (path) => {
+    this.props.history.push(path);
+  }
+
   render() {
     return (
         <div className="body">
@@ -12,8 +18,8 @@ export class Body extends React.Component {
             <input type="text" placeholder="What do you want to know about Canzhen?"></input>
           </div>
           <div className="buttonGroup">
-            <button type="button" class="btn btn-light">Canzhen Search</button>
-            <button type="button" class="btn btn-light">I am Feeling Lucky</button>
+            <Link className="btn" to="/search">Canzhen Search</Link>
+            <Link className="btn">I am Feeling Lucky</Link>
           </div>
         </div>
     );

@@ -1,18 +1,28 @@
-import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
-import { Header } from "./components/Header/Header"
-import { Body } from "./components/Body/Body"
-import { Footer } from "./components/Footer/Footer"
+import React from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+
+import { Home } from './components/Home/Home';
+import { Search } from './components/Search/Search';
 
 function App() {
   return (
-    <div className="App">
-      <Header className="Header"></Header>
-      <Body className="Body"></Body>
-      <Footer className="Footer"></Footer>
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/">
+          <Home/>
+        </Route>
+        <Route path="/search">
+          <Search/>
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
