@@ -1,6 +1,6 @@
 .body {
     display: block;
-    padding-top: 30vh;
+    padding-top: 25vh;
     text-align: center;
 }
 
@@ -8,12 +8,12 @@
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 2vh;
+    margin-bottom: 2vmax;
     vertical-align: middle;
 }
 
 .homeLogo > img {
-    width: 30vh;
+    width: 50vmin;
 }
 
 .homeSearchBar {
@@ -21,11 +21,27 @@
 }
 
 .homeSearchBar > input {
-    width: 40vh;
-    height: 3vh;
+    width: 40vmax;
+    height: 3.5vh;
     padding-left: 1vw;
+    margin-bottom: 2vh;
     border: solid 1px #0000003b;
     border-radius: 25px;
     box-shadow: 3px 3px #00000018;
-    font-size: 1.2vh;
+    font-size: 1.3vh;
+    outline: none;
+}
+
+.buttonGroup {
+    width: 100%;
+}
+
+.buttonGroup > * {
+    margin-right: 1vmax;
+}
+
+.buttonGroup > button{
+    font-size: 1.3vh;
+    font-weight: 530;
+    color: #5f6369;
 }

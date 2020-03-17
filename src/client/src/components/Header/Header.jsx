@@ -9,7 +9,7 @@ export class Header extends React.Component {
         <header className="homepageHeader">
             <p>Learn More About Me</p>
             <img className="headerMenuButtonImg" src='/images/menubutton.png'/>
-            <Button className="headerButton">Login</Button>
+            <Button className="headerButton">Contact</Button>
         </header>
     );
   }
