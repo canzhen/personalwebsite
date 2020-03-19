@@ -1,13 +1,26 @@
 import './Footer.css'
 
 import * as React from "react";
+import { Link } from "react-router-dom";
 
-export class Footer extends React.Component {
+
+type FooterProps = {
+  language: string,
+}
+
+export class Footer extends React.Component<FooterProps> {
   render() {
     return (
         <div className="footer">
           <div className="fbar">
-              <p>@Copyright: Canzhen Zhou since 2020.</p>
+              <p>
+                {this.props.language == 'EN' ? '@Copyright: Canzhen Zhou since 2020.' : 
+                 this.props.language == 'CN' ? '©2020 Canzhen' : '' }
+              </p>
+              <Link className="fbarRight" to="/cn">
+                {this.props.language == 'EN' ? '中文' : 
+                this.props.language == 'CN' ? 'English' : ''}
+              </Link>
           </div>
         </div>
     );

@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 
 import { Home } from './components/Home/Home';
+import { HomeInChinese } from './components/Home/HomeInChinese'
 import { Search } from './components/Search/Search';
 
 function App() {
@@ -20,6 +21,9 @@ function App() {
         </Route>
         <Route path="/search">
           <Search/>
+        </Route>
+        <Route path="/cn">
+          <HomeInChinese/>
         </Route>
       </Switch>
     </Router>

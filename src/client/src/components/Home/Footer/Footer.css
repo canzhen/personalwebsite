@@ -10,6 +10,13 @@
 }
 
 .fbar {
+    display: inline-flex;
+    justify-content: center;
     width: 100%;
     margin-top: 1vh;
+}
+
+.fbarRight {
+    position: absolute;
+    right: 2vw;
 }
