@@ -1,2 +1,3 @@
-src/client/node_modules/*
-src/client/build/*
+.gitignore
+src/client/node_modules/**
+src/client/build/**
