@@ -9,7 +9,7 @@ import Footer from "./Footer/Footer";
 const HomeInChinese: React.FC = () => {
     return (
         <div className="App">
-            <Header className="Header" language="CN"></Header>
+            <Header className="Header" language="CN" isHomePage></Header>
             <Body className="Body" language="CN"></Body>
             <Footer className="Footer" language="CN"></Footer>
         </div>

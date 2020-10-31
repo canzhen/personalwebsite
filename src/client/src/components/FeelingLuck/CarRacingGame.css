@@ -1,0 +1,21 @@
+.carRacingGameRoot {
+    
+}
+
+.roadbed{
+    background:url(/images/road.png) repeat-y;
+    width:480px;
+    height:1600px;
+    position:absolute;
+    left:0;
+    top:-800px;
+}
+
+.roadRun{
+    -webkit-transform:translateZ(0);
+    -webkit-animation:roadRun 1.2s linear infinite;
+}
+
+@-webkit-keyframes roadRun{
+    100%{ -webkit-transform:translateY(800px);}
+}
