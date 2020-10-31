@@ -1,5 +1,7 @@
-.App {
-    display: block;
+.root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     font-size: 1.6vh;
-  }
+}
   

@@ -8,9 +8,10 @@ import {
   Route
 } from "react-router-dom";
 
-import { Home } from './components/Home/Home';
-import { HomeInChinese } from './components/Home/HomeInChinese'
-import { Search } from './components/Search/Search';
+import Home from './components/Home/Home';
+import HomeInChinese from './components/Home/HomeInChinese';
+import Search from './components/Search/Search';
+import FeelingLucky from './components/FeelingLuck/FeelingLucky';
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
         </Route>
         <Route path="/cn">
           <HomeInChinese/>
+        </Route>
+        <Route path="/iamfeelinglucky">
+          <FeelingLucky/>
         </Route>
       </Switch>
     </Router>

@@ -21,7 +21,7 @@
 }
 
 .homeSearchBar > input {
-    width: 40vmax;
+    width: 70vmax;
     height: 3.5vh;
     padding-left: 1vw;
     margin-bottom: 2vh;
@@ -46,4 +46,21 @@
     font-size: 1.3vh;
     font-weight: 530;
     color: #5f6369;
+}
+
+/* tablet */
+@media (min-width: 640px) and (max-width: 959px) {
+    .homeSearchBar > input {
+        width: 50vmax;
+    }
+}
+
+/* mobile */
+@media (max-width: 639px) {
+    .homeLogo > img {
+        width: 30vmin;
+    }
+    .homeSearchBar > input {
+        width: 30vmax;
+    }
 }
