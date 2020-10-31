@@ -36,6 +36,8 @@ go get gopkg.in/yaml.v2
 - run `service personal-website-server start` to start the server
 - you can check the status by running `service personal-website-server status`
 
+4. use nginx as reverse proxy, configuration `vim /etc/nginx/nginx.conf`, `service nginx start`
+
 ## Client setup:
 1. go to $(root)/src/client
 2. run `npm install`
