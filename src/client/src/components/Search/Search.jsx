@@ -1,15 +1,14 @@
 import './Search.css'
 
 import * as React from "react";
-import { Button } from 'react-bootstrap';
+
+import Header from "../Home/Header/Header";
 
 const Search: React.FC<> = () => {
   return (
-      <header className="homepageHeader">
-          <p>Learn More About Me</p>
-          <img className="headerMenuButtonImg" src='/images/menubutton.png' alt='menubutton'/>
-          <Button className="headerButton">Contact</Button>
-      </header>
+      <div>
+        <Header language="EN" isHomePage={false}/>
+      </div>
   );
 }
 
