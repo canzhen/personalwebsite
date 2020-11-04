@@ -3,7 +3,7 @@ import './Header.css'
 import * as React from "react";
 import classNames from 'classnames';
 
-import { Button } from 'react-bootstrap';
+import { Link } from "react-router-dom";
 
 
 type HeaderProps = {
@@ -28,10 +28,10 @@ const Header: React.FC<HeaderProps> = props => {
               props.language === 'CN' ? '了解更多': ''}
             </p>
             <img className="menuButtonImg" src='/images/menubutton.png' alt='headermenubuttonimg'/>
-            <Button className="button" variant="primary">
+            <Link className="headerButton" to="/">
               {props.language === 'EN' ? 'Contact': 
               props.language === 'CN' ? '联系我' : ''}
-            </Button>
+            </Link>
         </div>
       </div>
   );

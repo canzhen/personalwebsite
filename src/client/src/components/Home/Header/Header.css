@@ -35,10 +35,17 @@
     margin-right: 1vw;
 }
 
-.button {
-    height: 3vh;
-    line-height: 1.5vh;
-    font-size: 1.5vh;
+.headerButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 80px;
+    background-color: #f3f3f4;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 530;
+    color: #5f6369;
 }
 
 /* tablet */
@@ -49,6 +56,9 @@
 }
 
 @media (max-width: 639px) {
+    .headerRoot {
+        padding-top: 1vh;
+    }
     .headerLeft > img{
         margin-top: 5px;
         margin-left: 10px;
