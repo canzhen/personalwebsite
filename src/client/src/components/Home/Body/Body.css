@@ -23,7 +23,7 @@
 .homeSearchBar > input {
     width: 70vmax;
     height: 3.5vh;
-    padding-left: 1vw;
+    padding-left: 20px;
     margin-bottom: 2vh;
     border: solid 1px #0000003b;
     border-radius: 25px;
@@ -57,10 +57,7 @@
 
 /* mobile */
 @media (max-width: 639px) {
-    .homeLogo > img {
-        width: 30vmin;
-    }
     .homeSearchBar > input {
-        width: 30vmax;
+        width: 40vmax;
     }
 }

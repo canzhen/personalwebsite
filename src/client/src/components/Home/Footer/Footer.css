@@ -3,10 +3,11 @@
     bottom: 0;
     left: 0;
     right: 0;
-    height: 4.5vh;
+    height: 4vh;
     background: #f2f2f2;
     border-top: 1px solid #e4e4e4;
     text-align: center;
+    font-size: 12px;
 }
 
 .fbar {
