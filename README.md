@@ -36,8 +36,7 @@ go get gopkg.in/yaml.v2
 - run `service personal-website-server start` to start the server
 - you can check the status by running `service personal-website-server status`
 
-4. `npm install pm2` -> `pm2 start npm -- start`
-5. use nginx as reverse proxy, configuration `vim /etc/nginx/sites-available/default`, `service nginx start`
+4. `EXPORT PORT=80` -> `npm install pm2` -> `pm2 start npm -- start`
 
 ## Client setup:
 1. go to $(root)/src/client
