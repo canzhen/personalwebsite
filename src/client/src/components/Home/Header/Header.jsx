@@ -28,7 +28,7 @@ const Header: React.FC<HeaderProps> = props => {
               props.language === 'CN' ? '了解更多': ''}
             </p>
             <img className="menuButtonImg" src='/images/menubutton.png' alt='headermenubuttonimg'/>
-            <Link className="headerButton" to="/">
+            <Link className="headerButton">
               {props.language === 'EN' ? 'Contact': 
               props.language === 'CN' ? '联系我' : ''}
             </Link>
